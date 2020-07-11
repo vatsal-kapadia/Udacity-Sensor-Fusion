@@ -1,10 +1,16 @@
 # Udacity-Sensor-Fusion
 This is about my course of sensor fusion 
 Main topics covered in  tHis course are:
+
 Lidar
+
 Camera
+
 Radar
+
 Kalman filters
+
+
 
 
 Welcome to the Sensor Fusion course for self-driving cars.
@@ -17,34 +23,59 @@ Radar data is typically very sparse and in a limited range, however it can direc
 Sensor Fusion by combing lidar's high resoultion imaging with radar's ability to measure velocity of objects we can get a better understanding of the sorrounding environment than we could using one of the sensors alone.
 
 Installation
+
 Ubuntu
+
 $> sudo apt install libpcl-dev
+
 $> cd ~
+
 $> git clone https://github.com/udacity/SFND_Lidar_Obstacle_Detection.git
+
 $> cd SFND_Lidar_Obstacle_Detection
+
 $> mkdir build && cd build
+
 $> cmake ..
+
 $> make
+
 $> ./environment
+
 Windows
+
 http://www.pointclouds.org/downloads/windows.html
 
 MAC
+
 Install via Homebrew
+
 install homebrew
+
 update homebrew
+
 $> brew update
+
 add homebrew science tap
+
 $> brew tap brewsci/science
+
 view pcl install options
+
 $> brew options pcl
+
 install PCL
+
 $> brew install pcl
+
 Prebuilt Binaries via Universal Installer
+
 http://www.pointclouds.org/downloads/macosx.html
+
 NOTE: very old version
 
 Build from Source
+
 PCL Source Github
 
 PCL Mac Compilation Docs
